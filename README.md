@@ -16,7 +16,10 @@ $ rustup component add --toolchain=beta rust-analysis
 
 ```
 
-```keybindings.json
+
+#### keybindings.json
+
+```json
 // 既定値を上書きするには、このファイル内にキー バインドを挿入します
 [{
   "key": "cmd+r",
