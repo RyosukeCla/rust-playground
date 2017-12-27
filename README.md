@@ -15,3 +15,13 @@ $ rustup component add --toolchain=beta rust-src
 $ rustup component add --toolchain=beta rust-analysis
 
 ```
+
+```keybindings.json
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[{
+  "key": "cmd+r",
+  "command": "workbench.action.tasks.runTask",
+  "args": "cargoRun",
+  "when": "editorTextFocus"
+}]
+```
