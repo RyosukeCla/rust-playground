@@ -1,5 +1,6 @@
 # My Rust Playground
 
+## setup
 ```bash
 # install rustup
 $ curl https://sh.rustup.rs -sSf | sh
@@ -16,6 +17,14 @@ $ rustup component add --toolchain=beta rust-analysis
 
 ```
 
+## Cargo
+- `cargo update`: クレートをアップデート。cargo.lockも変わる。
+- `cargo run`: run
+- `cargo build`: build
+
+## クレート
+- 別言語で言うpackage, ライブラリのこと
+- `rand`は外部クレート
 
 #### keybindings.json
 
